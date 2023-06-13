@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Text Effect</title>
+        <style>
+             .of{
+                 
+                 white-space: nowrap;
+                 width: 250px;
+                 border: 1px solid black;
+                 overflow: hidden;
+                 text-overflow:ellipsis ;
+             }
+             .wm{
+                 writing-mode: vertical-lr;
+             }
+             .ww{
+                 width: 150px;
+                 border: 2px solid grey;
+                 word-wrap:normal;
+             }
+             .wb{
+                 width: 150px;
+                 word-break:break-all;
+             }
+             
+        </style>
+    </head>
+    <body>
+        <p class="of">
+          This is a very long para decleared inside div tag  which has text-overflow function         
+        </p><br>
+        <br>
+        <div class="wm">
+           Tag which has writing-mode function 
+        </div><br>
+        <br>
+        <div class="ww">
+            This is a very long para decleared inside div tag which has word-wrap function 
+        </div><br>
+        <br>
+        <div class="wb">
+            This is a very long para decleared inside div tag which has word-break function
+        </div> 
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <p id="AO"></p>
+    <P id="AO1"></p>
+    <script src="./ArrayOfobjects.js">
+        let a = [{ name: "Ace" }, { age: 18 },
+        { dob: "07-07-2005" }, { place: "karur" },
+        { bg: "B-" }, { ambition: null },
+        { number: 9629923925 }, { sport: "Badminton" },
+        { school: "LAEHSS" }, { college: "GPT" }
+        ];
+        function b(){
+            a.map()
+        }
+        a.map((b) => {
+            <table>
+                <thead>
+                    <tr>
+                        <th>age</th>
+                        <th>dob</th>
+                        <th>place</th>
+                        <th>bg</th>
+                        <th>ambition<th>
+                        <th>number</th>
+                        <th>sport</th>
+                        <th>school</th>
+                        <th>college</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{a.name}</td>
+                        <td>{a.age}</td>
+                        <td>{a.dob}</td>
+                        <td>{a.place}</td>
+                        <td>{a.bg}</td>
+                        <td>{a.ambition}</td>
+                        <td>{a.number}</td>
+                        <td>{a.sport}</td>
+                        <td>{a.school}</td>
+                        <td>{a.college}</td>
+                </tbody>
+            </table>
+
+        });
+    </script>
+</body>
+
+</html>

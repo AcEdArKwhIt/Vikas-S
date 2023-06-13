@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Array Mthods</title>
+    </head>
+    <body>
+        <!-- method 1 -->
+        <p id="demo"></p>
+        <script>
+            const a = ["bike","cycle","car","truck"];
+            let length = a.length;
+
+            document.getElementById("demo").innerHTML = length;
+        </script>
+        <!-- method 2 -->
+        <p id="demo1"></p>
+        <script>
+            const b = ["bike","cycle","car","truck"];
+            b.pop()
+
+            document.getElementById("demo1").innerHTML = b;
+        </script>
+        <!-- method 3 -->
+        <p id="demo2"></p>
+        <script>
+            const c = ["bike","cycle","car","truck"];
+            c.push("train");
+
+            document.getElementById("demo2").innerHTML = c;
+        </script>
+        <!-- method 4 -->
+        <p id="demo3"></p>
+        <script>
+            const d = ["bike","cycle","car","truck"];
+            const slice = d.slice(1,2);
+
+            document.getElementById("demo3").innerHTML = slice;
+        </script>
+        <!-- method 5 -->
+        <p id="demo4"></p>
+        <script>
+            const e = ["bike","cycle","car","truck"];
+            e.reverse();
+
+            document.getElementById("demo4").innerHTML = e;
+        </script>
+    </body>
+</html>

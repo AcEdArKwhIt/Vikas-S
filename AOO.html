@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <style>
+            #a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9,#a10{
+               margin-left: 75px;
+               color: mediumslateblue;
+               font-size: 20px;
+            }
+            #obj,#obj1,#obj2,#obj3,#obj4,#obj5,#obj6{
+                margin-left: 75px;
+                color: mediumslateblue;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Question 1 -->
+        <h2>Highest number is </h2>
+        <p id="a1"></p>
+        <script>
+
+            document.getElementById("a1").innerHTML  = Math.max(22,34,54,66,89,10);
+        </script>
+        <!-- Question 2 -->
+        <h2>Sum of an array</h2>
+        <p id="a2"></p>
+        <script>
+            const numbers = [7,4,6,8,2];
+            let num = numbers[0]*numbers[1]*numbers[2]*numbers[3]*numbers[4];
+            document.getElementById("a2").innerHTML = num;
+        </script>
+        <!-- Question 3 -->
+        <h2>Length of the string</h2>
+        <p id="a3"></p>
+        <script>
+            const c = ["Apple","Banana","Grapes","Watermelon"];;
+            let length = c.length;
+            document.getElementById("a3").innerHTML = length ;
+        </script>
+        <h2>Using push method</h2>
+        <!-- Question 4 -->
+        <p id="a4"></p>
+        <script>
+            const d = ["Apple","Banana","Grapes","Watermelon"];;
+            d.push("Pineapple");
+
+            document.getElementById("a4").innerHTML = d;
+        </script>
+        <h2>Using unshift method</h2>
+        <!-- Question 5 -->
+        <p id="a5"></p>
+        <script>
+            const e = ["Apple","Banana","Grapes","Watermelon"];
+            e.unshift("cucumber",);
+
+            document.getElementById("a5").innerHTML = e;
+        </script>
+        <!-- Question 6 -->
+        <h2>Using pop method</h2>
+        <p id="a6"></p>
+        <script>
+            const f = ["Apple","Banana","Grapes","Watermelon"];
+            f.pop()
+
+            document.getElementById("a6").innerHTML = f;
+        </script>
+        <!-- Question 7 -->
+        <h2>Using shift method</h2>
+        <p id="a7"></p>
+        <script>
+            const g = ["Apple","Banana","Grapes","Watermelon"];
+            g.shift();
+
+            document.getElementById("a7").innerHTML = g;
+        </script>
+        <!-- Question 8 -->
+        <h2>Using indexOf method</h2>
+        <p id="a8"></p>
+        <script>
+            const h = ["Apple","Banana","Grapes","Watermelon"];
+            let h1 = h.indexOf("grapes");
+            
+            document.getElementById("a8").innerHTML = h1;
+        </script>
+        <!-- Question 9 -->
+        <h2>Using splice method</h2>
+        <p id="a9"></p>
+        <script>
+            const i = ["Apple","Banana","Grapes","Watermelon"];
+            i.splice(0,2);
+
+            document.getElementById("a9").innerHTML = i;
+        </script>
+        <!-- Question 10 -->
+        <h2>Using join method</h2>
+        <p id="a10"></p>
+        <script>
+            const j = ["Apple","Banana","Grapes","Watermelon"]; 
+            let j1 = j.join(" | ",);
+
+            document.getElementById("a10").innerHTML = j1;
+        </script>
+        <h2>Displaying object elements seperately</h2>
+        <!-- Question 11 -->
+        <p id="Obj"></p>
+        <script>
+            let k= {name:"Ace",age:18,dob:"07-07-2005",
+            place:"karur",bg:"B-",ambition:"",goal:"",
+            sport:"Badminton",school:"LAEHSS",college:"GPT",
+        };
+            document.getElementById("Obj").innerHTML = k.name + " is a boy ." + "<br>"+"Living in " + k.place + "<br>"+
+             "Who is " + k.age + " old " +"<br>"+"<br>"+
+             "Blood group is " + k.bg + "<br>" +
+             "Studied at " + k.school + "<br>" +
+             "Studying in " + k.college + "<br>" +
+             "He is good at " + k.sport;
+        </script>
+    </body>
+</html>

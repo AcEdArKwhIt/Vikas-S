@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>animation</title>
+       <style>
+         .b{
+           margin-left: 55px;
+           margin-top: 78px;
+           padding: 10px;
+         }
+       .a{
+           height: 200px;
+           width: 200px;
+           position: absolute;
+           animation-name: square;
+           animation-iteration-count: 5;
+           animation-duration: 5s;
+           animation-direction: alternate;
+        }
+        @keyframes square{
+            0%  {background-color: lightskyblue;left: 0px;top: 0px;}
+            25% {background-color: aquamarine;left: 200px;top: 0px;}
+            50% {background-color: aqua;left: 200px;top: 200px;}
+            75% {background-color: blueviolet;left: 0px;top: 200px;}
+            100%{background-color: blue;left: 0px;top: 0px;}
+        }
+      </style>
+    </head>    
+      <body id="media">
+        <div class="a">
+          
+        </div>
+      </body>
+</html>

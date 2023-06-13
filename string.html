@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>String methods</title>
+    </head>
+    <body>
+        <!-- method 1 -->
+        <p id="demo1">
+        </p>
+        <script>
+            let b = "AcE_DaRkWhItE";
+            const split = b.split("");
+            document.getElementById("demo1").innerHTML ="AcE_DaRkWhItE will be splited like    " + split;
+        </script>
+        <!-- method 2 -->
+        <p id="demo2"></p>
+        <script>
+            let c = "AcE_DaRkWhItE";
+            let up = c.toLocaleUpperCase();
+
+            document.getElementById("demo2").innerHTML = up;
+        </script>
+        <!-- method 3 -->
+          <p id="demo3"></p>
+          <script>
+              let d = "AcE_DaRkWhItE";
+              let lowercase = d.toLocaleLowerCase();
+
+              document.getElementById("demo3").innerHTML = lowercase;
+          </script> 
+        <!-- method 4 -->
+          <p id="demo4"></p>
+          <script>
+              let e = "AcE_DaRkWhItE";
+              let sub = e.substr(4,4);
+
+              document.getElementById("demo4").innerHTML = sub;
+          </script>
+        <!-- method 5 -->
+          <p id="demo5"></p>
+          <script>
+            let a = "AcE_DaRkWhItE";
+            let length = a.length;
+            
+            document.getElementById("demo5").innerHTML = length;
+          </script>
+        <!-- method 6 -->
+           <p id="demo6"></p>
+           <script>
+               let f = "AcE_DaRkWhItE";
+               let char = f.charAt(10);
+               
+               document.getElementById("demo6").innerHTML = char;
+           </script>
+    </body>
+</html>

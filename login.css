@@ -1,0 +1,113 @@
+.l 
+{
+    background-color: #B2A4FF;
+}
+.body 
+{
+    background-color: #79E0EE;
+    margin-left: 34%;
+    margin-top: 5%;
+    border-radius: 25px;
+    height: 475px;
+    width: 325px;
+    box-shadow: 1px 1px 4px 5px whitesmoke;
+}
+.a 
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+@media only screen and (max-width:600px)
+{
+    .a {font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+}
+#x 
+{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+}
+@media only screen and (max-width:600px)
+{
+    #x {font-size: 15px;  
+    }
+}
+#y 
+{
+    margin-left: 10px;
+}
+@media only screen and (max-width:600px)
+{
+    #y{font-size: 15px;
+        
+    }
+}
+.user 
+{
+    align-content: center;
+    text-align: center;
+    border-style: dashed;
+}
+.pass 
+{
+    align-content: center;
+    text-align: center;
+    border-style: dashed;
+}
+.S 
+{
+    font-family: 'Rubik Wet Paint', cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30%;
+}
+.forget 
+{
+    padding-left: 50%;
+}
+@media only screen and (max-width:600px){
+    .forget {
+        font-size: 15px;
+}
+}
+.icon 
+{
+    padding-left: 36%;
+}
+@media only screen and (max-width:600px){
+    .icon {
+        align-items: center;
+        font-size: 15px;
+}
+}
+.footer 
+{
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 25px;
+    padding-left: 20%;
+    padding-top: 20px;
+}
+@media only screen and (max-width:600px) 
+{
+    .l {
+        background-color:  #40DFEF;
+    }
+}
+@media only screen and (max-width:600px)
+{
+    .body {
+        height: 360px;
+        width: 240px;
+        background-color: #F0EB8D;
+    }
+}
+@media only screen and(max-width:600px)
+{
+.footer{
+    font-size: 10px;
+}
+}
